@@ -1,0 +1,211 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    background-color: gray;
+}
+.merge{
+    display: flex;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f2e2157b-1c8d-4885-9c59-8b4235bb18bd.png);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.button-style {
+    padding-left: 30px;
+}
+.mid-container {
+    display: flex;
+    gap:20px;
+    
+}
+
+.carousel1 {
+    padding: 50px;
+    margin: 0px;
+    color: black;
+}
+
+.carousel-control-next {
+    margin-top: 50%;
+    color: black;
+}
+
+.carousel-control-prev {
+    margin-top: 50%; 
+    color: black;
+}
+
+.title-tag {
+    color: white;
+    font-size: larger;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap: 30px;
+}
+
+.homepage {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title-tag::before, .title-tag::after {
+    content: "";
+    height: 2px;
+    background-color: brown;
+    display: block;
+}
+
+
+.head-img{
+    padding: 30px 20px; 
+    margin: 10px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: black;}
+  
+.merge{
+    display:flex;
+}
+.fav{
+    text-align: center;
+    margin:10px 10px;
+
+}
+.i1{
+    margin: 10px 10px;
+}
+
+.texts{
+    display: flex;
+    margin:8px;
+    padding-left: 350px;
+}
+h5{
+    color: #f1f1f1;
+}
+.i2{
+    padding: 10px 10px;
+}
+hr{
+    color: #f1f1f1;
+}
+.three{
+    display: flex ;
+     justify-content: space-around;
+}
+p{
+    color: rgb(155, 161, 161);
+}
+h3{
+    color:white;
+}
+.b1{
+    display: flex;
+    border: 1px solid white;
+    width: 250px;
+    height:60px;
+    border-radius: 5px;
+}
+.b2{
+    padding: 10px;
+}
+.c1{
+    display: flex;
+    border: 1px solid white;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+.c2{
+    padding: 10px;
+}
+.last-1{
+    display: flex;
+    justify-content: space-around;
+}
+.sub{
+    text-align: center;
+   padding: 20px;
+   color: rgb(212, 210, 206);
+}
+.card{
+    text-align: center;
+    margin: 10px;
+}
+.cont-1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 243, 149);
+
+}
+.m{
+    background-color: rgb(223, 243, 149);  
+}
+.k{
+    margin: 20px;;
+}
+.k1{
+    padding:15px;
+}
+.z{
+    background-color: #ff7b00;
+}
